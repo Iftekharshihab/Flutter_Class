@@ -49,6 +49,9 @@ class _HomepageState extends State<Homepage> {
             ElevatedButton(onPressed: (){
               Navigator.push(context, MaterialPageRoute(builder: (context)=> DateTimeImage()));
             }, child: Text("Date demo")),
+            ElevatedButton(onPressed: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context)=> DateTimeImage()));
+            }, child: Text("Git Button")),
 
           ],
         ),
